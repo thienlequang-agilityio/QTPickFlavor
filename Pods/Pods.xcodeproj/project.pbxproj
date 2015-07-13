@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0168E1D3C148893B788117D6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 202DC66CACAC6203DA99FD32 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F4A0880E7306DE00914699F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F2B7B1877677F4506F819 /* Request.swift */; };
+		23FA759191F098C75D597123 /* Pods-QTPickFlavor-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEF8A3366E2AB1024F057BB /* Pods-QTPickFlavor-MBProgressHUD-dummy.m */; };
+		39B284A52756644DCE5A9210 /* Pods-QTPickFlavor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DCC921BB060908DBE2DAEB /* Pods-QTPickFlavor-dummy.m */; };
+		3B8B79B35BE88A0B3F9DE45B /* Pods-QTPickFlavor-MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 423BB9B62D1915474859611D /* Pods-QTPickFlavor-MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6734C9815F369707E8A8A506 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D631776F24A8D4D55A4699F1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707AC4EFC7B0528878213359 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531E95A82121B513BDE994F /* Alamofire.swift */; };
+		7CBFF764033F71C6B95578CC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61830AED0B6D2836805B75BF /* ResponseSerialization.swift */; };
+		920D9FC3507D51E5499EE364 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601153FC8816C42E393DEA0D /* Download.swift */; };
+		A39550E8F9937EEB16733070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598CE542E8FD9CDF051ADEC /* Foundation.framework */; };
+		B426165A55E2D2F00E4F7A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598CE542E8FD9CDF051ADEC /* Foundation.framework */; };
+		BEAA4D56BFE810C82A9F9815 /* Pods-QTPickFlavor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F58418937D03F7A0E04D6C /* Pods-QTPickFlavor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61346C966CFE4814B0690DB /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92277B831FAB1EF78348F286 /* Upload.swift */; };
+		C639AF6B8303502E91B0D583 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E102AD6FF7F5F194AFDCABF /* Manager.swift */; };
+		CE42EA39874A964769B4EBC4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F24895E79CF4FCC966FDF /* Validation.swift */; };
+		D97B2AC7C58D06EB1B8E440D /* Pods-QTPickFlavor-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E94F1C2ADC2FDD2ECB9B0285 /* Pods-QTPickFlavor-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5D4D99C8583298E40DA13A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7598CE542E8FD9CDF051ADEC /* Foundation.framework */; };
+		F331F185681C9F2EC056773C /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E42DDCF16F3251D5F4EE7 /* ParameterEncoding.swift */; };
+		F78544FAC6281114C1C57198 /* Pods-QTPickFlavor-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6405F193E95A44554C3F8B68 /* Pods-QTPickFlavor-Alamofire-dummy.m */; };
+		FADEC6C36BA6EB3DB9C565BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B352D19C61B551EB5317BC5 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF140266ADD8471972D8148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5367846CE3A7EBC14E20CCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C0665722BC1B24BAF811B57;
+			remoteInfo = "Pods-QTPickFlavor-Alamofire";
+		};
+		7E9CE22E038FB5E2B72B1DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5367846CE3A7EBC14E20CCDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D1C49092A245EB7B20F0C1;
+			remoteInfo = "Pods-QTPickFlavor-MBProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008DA59158D3CA1A7FBE12E3 /* Pods-QTPickFlavor-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTPickFlavor-Alamofire.modulemap"; sourceTree = "<group>"; };
+		0778807C29C999C93872B2C1 /* Pods-QTPickFlavor-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTPickFlavor-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		0E2AB72FB88795DAF7A82AA4 /* Pods-QTPickFlavor-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTPickFlavor-environment.h"; sourceTree = "<group>"; };
+		202DC66CACAC6203DA99FD32 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2531E95A82121B513BDE994F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		29BD96841150620225FBFC8B /* Pods-QTPickFlavor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTPickFlavor-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B352D19C61B551EB5317BC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2E102AD6FF7F5F194AFDCABF /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		34DE7C4D48179C21D56ACADA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423BB9B62D1915474859611D /* Pods-QTPickFlavor-MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTPickFlavor-MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4497B4A036B3570109052165 /* Pods-QTPickFlavor-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTPickFlavor-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		4F4BDF756A9F267396C31F34 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		580C5F7DA8EB738CF320ED03 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A24EF03C9F75799C7592873 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F45F3F256C0EA3AB32033B1 /* Pods-QTPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
+		601153FC8816C42E393DEA0D /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		60CB5B2F21904AB3B30A658A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611A30489C37459C643A595B /* Pods-QTPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
+		61830AED0B6D2836805B75BF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		6405F193E95A44554C3F8B68 /* Pods-QTPickFlavor-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTPickFlavor-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		68891CB4C54715799B4ED830 /* Pods-QTPickFlavor-MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTPickFlavor-MBProgressHUD.modulemap"; sourceTree = "<group>"; };
+		74F58418937D03F7A0E04D6C /* Pods-QTPickFlavor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTPickFlavor-umbrella.h"; sourceTree = "<group>"; };
+		7598CE542E8FD9CDF051ADEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		897D99A71B8357B9940F9F97 /* Pods-QTPickFlavor-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTPickFlavor-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		92277B831FAB1EF78348F286 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		9392205C383B8372F96B4409 /* Pods_QTPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DCC921BB060908DBE2DAEB /* Pods-QTPickFlavor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTPickFlavor-dummy.m"; sourceTree = "<group>"; };
+		977F2B7B1877677F4506F819 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		999DAFF37BD5007974CDFC7F /* Pods-QTPickFlavor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTPickFlavor-resources.sh"; sourceTree = "<group>"; };
+		AC8F24895E79CF4FCC966FDF /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AC9B49B87CCCD84E3B50EF3D /* Pods-QTPickFlavor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTPickFlavor-frameworks.sh"; sourceTree = "<group>"; };
+		AE4F663456E60130C8C6787D /* Pods-QTPickFlavor-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTPickFlavor-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		D631776F24A8D4D55A4699F1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E94F1C2ADC2FDD2ECB9B0285 /* Pods-QTPickFlavor-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTPickFlavor-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		EA5E42DDCF16F3251D5F4EE7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		EBDD70A82ED27D98C13AA4F0 /* Pods-QTPickFlavor-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QTPickFlavor-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		EFEF8A3366E2AB1024F057BB /* Pods-QTPickFlavor-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTPickFlavor-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		F012D606D73758EA64B796FB /* Pods-QTPickFlavor-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTPickFlavor-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		F093447BADADA4DDCAD0D0B8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F765C8B78740CACF08D17512 /* Pods-QTPickFlavor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTPickFlavor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC2FD7809ACA71885CB6C644 /* Pods-QTPickFlavor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QTPickFlavor.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D12208B5CF080071BC083B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADEC6C36BA6EB3DB9C565BD /* CoreGraphics.framework in Frameworks */,
+				DB5D4D99C8583298E40DA13A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE40020F486B5550A9B49CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39550E8F9937EEB16733070 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA712D2734AB07800E31DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B426165A55E2D2F00E4F7A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473BFF3FED4EB376E6667086 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				2531E95A82121B513BDE994F /* Alamofire.swift */,
+				601153FC8816C42E393DEA0D /* Download.swift */,
+				2E102AD6FF7F5F194AFDCABF /* Manager.swift */,
+				EA5E42DDCF16F3251D5F4EE7 /* ParameterEncoding.swift */,
+				977F2B7B1877677F4506F819 /* Request.swift */,
+				61830AED0B6D2836805B75BF /* ResponseSerialization.swift */,
+				92277B831FAB1EF78348F286 /* Upload.swift */,
+				AC8F24895E79CF4FCC966FDF /* Validation.swift */,
+				6E0163F1C1CDB98644BC3746 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		644A70561F4E9E4C4A91E7B3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B352D19C61B551EB5317BC5 /* CoreGraphics.framework */,
+				7598CE542E8FD9CDF051ADEC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E0163F1C1CDB98644BC3746 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A24EF03C9F75799C7592873 /* Info.plist */,
+				008DA59158D3CA1A7FBE12E3 /* Pods-QTPickFlavor-Alamofire.modulemap */,
+				F012D606D73758EA64B796FB /* Pods-QTPickFlavor-Alamofire.xcconfig */,
+				AE4F663456E60130C8C6787D /* Pods-QTPickFlavor-Alamofire-Private.xcconfig */,
+				6405F193E95A44554C3F8B68 /* Pods-QTPickFlavor-Alamofire-dummy.m */,
+				EBDD70A82ED27D98C13AA4F0 /* Pods-QTPickFlavor-Alamofire-prefix.pch */,
+				E94F1C2ADC2FDD2ECB9B0285 /* Pods-QTPickFlavor-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QTPickFlavor-Alamofire";
+			sourceTree = "<group>";
+		};
+		83ABB47E0318D333D7B627DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60CB5B2F21904AB3B30A658A /* Info.plist */,
+				68891CB4C54715799B4ED830 /* Pods-QTPickFlavor-MBProgressHUD.modulemap */,
+				4497B4A036B3570109052165 /* Pods-QTPickFlavor-MBProgressHUD.xcconfig */,
+				0778807C29C999C93872B2C1 /* Pods-QTPickFlavor-MBProgressHUD-Private.xcconfig */,
+				EFEF8A3366E2AB1024F057BB /* Pods-QTPickFlavor-MBProgressHUD-dummy.m */,
+				897D99A71B8357B9940F9F97 /* Pods-QTPickFlavor-MBProgressHUD-prefix.pch */,
+				423BB9B62D1915474859611D /* Pods-QTPickFlavor-MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QTPickFlavor-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		87B0EE50376B6FDC22152758 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5B9CC0764FC88E805E0186D /* Pods-QTPickFlavor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D5C9838659630A33FE7521B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644A70561F4E9E4C4A91E7B3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49AA0734A5E55EF6E2D9D4F = {
+			isa = PBXGroup;
+			children = (
+				580C5F7DA8EB738CF320ED03 /* Podfile */,
+				8D5C9838659630A33FE7521B /* Frameworks */,
+				EEAAAC3335A04B7EF05FB7B0 /* Pods */,
+				FADE288B92145C2A54AAF705 /* Products */,
+				87B0EE50376B6FDC22152758 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7EDBF7DB084F9B6090400D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D631776F24A8D4D55A4699F1 /* MBProgressHUD.h */,
+				202DC66CACAC6203DA99FD32 /* MBProgressHUD.m */,
+				83ABB47E0318D333D7B627DA /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		E5B9CC0764FC88E805E0186D /* Pods-QTPickFlavor */ = {
+			isa = PBXGroup;
+			children = (
+				34DE7C4D48179C21D56ACADA /* Info.plist */,
+				FC2FD7809ACA71885CB6C644 /* Pods-QTPickFlavor.modulemap */,
+				F765C8B78740CACF08D17512 /* Pods-QTPickFlavor-acknowledgements.markdown */,
+				29BD96841150620225FBFC8B /* Pods-QTPickFlavor-acknowledgements.plist */,
+				96DCC921BB060908DBE2DAEB /* Pods-QTPickFlavor-dummy.m */,
+				0E2AB72FB88795DAF7A82AA4 /* Pods-QTPickFlavor-environment.h */,
+				AC9B49B87CCCD84E3B50EF3D /* Pods-QTPickFlavor-frameworks.sh */,
+				999DAFF37BD5007974CDFC7F /* Pods-QTPickFlavor-resources.sh */,
+				74F58418937D03F7A0E04D6C /* Pods-QTPickFlavor-umbrella.h */,
+				5F45F3F256C0EA3AB32033B1 /* Pods-QTPickFlavor.debug.xcconfig */,
+				611A30489C37459C643A595B /* Pods-QTPickFlavor.release.xcconfig */,
+			);
+			name = "Pods-QTPickFlavor";
+			path = "Target Support Files/Pods-QTPickFlavor";
+			sourceTree = "<group>";
+		};
+		EEAAAC3335A04B7EF05FB7B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				473BFF3FED4EB376E6667086 /* Alamofire */,
+				DF7EDBF7DB084F9B6090400D /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FADE288B92145C2A54AAF705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4BDF756A9F267396C31F34 /* Alamofire.framework */,
+				F093447BADADA4DDCAD0D0B8 /* MBProgressHUD.framework */,
+				9392205C383B8372F96B4409 /* Pods_QTPickFlavor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07FB7026B2E74437D4E3A747 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97B2AC7C58D06EB1B8E440D /* Pods-QTPickFlavor-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BCE35B04DD0C676E5085CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6734C9815F369707E8A8A506 /* MBProgressHUD.h in Headers */,
+				3B8B79B35BE88A0B3F9DE45B /* Pods-QTPickFlavor-MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966EDE6333B4A3CE7DE371E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAA4D56BFE810C82A9F9815 /* Pods-QTPickFlavor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12E887F4EEE1D93435AC045C /* Pods-QTPickFlavor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023EC1321FE69767BD55D890 /* Build configuration list for PBXNativeTarget "Pods-QTPickFlavor" */;
+			buildPhases = (
+				A4951C174F17B2B455AC2D5C /* Sources */,
+				EAA712D2734AB07800E31DCC /* Frameworks */,
+				966EDE6333B4A3CE7DE371E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C50E28F9FE5588E53B0245 /* PBXTargetDependency */,
+				B3E74F5FDD025DD8D2D95969 /* PBXTargetDependency */,
+			);
+			name = "Pods-QTPickFlavor";
+			productName = "Pods-QTPickFlavor";
+			productReference = 9392205C383B8372F96B4409 /* Pods_QTPickFlavor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C0665722BC1B24BAF811B57 /* Pods-QTPickFlavor-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5D90A6B0DADF2E049B02B1 /* Build configuration list for PBXNativeTarget "Pods-QTPickFlavor-Alamofire" */;
+			buildPhases = (
+				5D2A7B44A9A413C49F60B0EC /* Sources */,
+				DE40020F486B5550A9B49CBA /* Frameworks */,
+				07FB7026B2E74437D4E3A747 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QTPickFlavor-Alamofire";
+			productName = "Pods-QTPickFlavor-Alamofire";
+			productReference = 4F4BDF756A9F267396C31F34 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40D1C49092A245EB7B20F0C1 /* Pods-QTPickFlavor-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF4D80BD2E8EF5ADFC5790A /* Build configuration list for PBXNativeTarget "Pods-QTPickFlavor-MBProgressHUD" */;
+			buildPhases = (
+				A85ECC5D0037AE5801276B65 /* Sources */,
+				49D12208B5CF080071BC083B /* Frameworks */,
+				87BCE35B04DD0C676E5085CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QTPickFlavor-MBProgressHUD";
+			productName = "Pods-QTPickFlavor-MBProgressHUD";
+			productReference = F093447BADADA4DDCAD0D0B8 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5367846CE3A7EBC14E20CCDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 6EC614810E3858BB8D9541D1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B49AA0734A5E55EF6E2D9D4F;
+			productRefGroup = FADE288B92145C2A54AAF705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E887F4EEE1D93435AC045C /* Pods-QTPickFlavor */,
+				1C0665722BC1B24BAF811B57 /* Pods-QTPickFlavor-Alamofire */,
+				40D1C49092A245EB7B20F0C1 /* Pods-QTPickFlavor-MBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2A7B44A9A413C49F60B0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707AC4EFC7B0528878213359 /* Alamofire.swift in Sources */,
+				920D9FC3507D51E5499EE364 /* Download.swift in Sources */,
+				C639AF6B8303502E91B0D583 /* Manager.swift in Sources */,
+				F331F185681C9F2EC056773C /* ParameterEncoding.swift in Sources */,
+				F78544FAC6281114C1C57198 /* Pods-QTPickFlavor-Alamofire-dummy.m in Sources */,
+				0F4A0880E7306DE00914699F /* Request.swift in Sources */,
+				7CBFF764033F71C6B95578CC /* ResponseSerialization.swift in Sources */,
+				C61346C966CFE4814B0690DB /* Upload.swift in Sources */,
+				CE42EA39874A964769B4EBC4 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4951C174F17B2B455AC2D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B284A52756644DCE5A9210 /* Pods-QTPickFlavor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85ECC5D0037AE5801276B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0168E1D3C148893B788117D6 /* MBProgressHUD.m in Sources */,
+				23FA759191F098C75D597123 /* Pods-QTPickFlavor-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C50E28F9FE5588E53B0245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QTPickFlavor-Alamofire";
+			target = 1C0665722BC1B24BAF811B57 /* Pods-QTPickFlavor-Alamofire */;
+			targetProxy = 4DF140266ADD8471972D8148 /* PBXContainerItemProxy */;
+		};
+		B3E74F5FDD025DD8D2D95969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QTPickFlavor-MBProgressHUD";
+			target = 40D1C49092A245EB7B20F0C1 /* Pods-QTPickFlavor-MBProgressHUD */;
+			targetProxy = 7E9CE22E038FB5E2B72B1DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28C8C978E69F71C4F3F2C48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4F663456E60130C8C6787D /* Pods-QTPickFlavor-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QTPickFlavor-Alamofire/Pods-QTPickFlavor-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTPickFlavor-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QTPickFlavor-Alamofire/Pods-QTPickFlavor-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36F45E01875C6E4E8B0DBDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8224AD9785210045C0A310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4F663456E60130C8C6787D /* Pods-QTPickFlavor-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QTPickFlavor-Alamofire/Pods-QTPickFlavor-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTPickFlavor-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QTPickFlavor-Alamofire/Pods-QTPickFlavor-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C4D28AC21BB30BC24A53A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0778807C29C999C93872B2C1 /* Pods-QTPickFlavor-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QTPickFlavor-MBProgressHUD/Pods-QTPickFlavor-MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTPickFlavor-MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QTPickFlavor-MBProgressHUD/Pods-QTPickFlavor-MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFFC611D26644F6DE8150DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1579FAA1396D4B6FBA30BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611A30489C37459C643A595B /* Pods-QTPickFlavor.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QTPickFlavor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QTPickFlavor/Pods-QTPickFlavor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QTPickFlavor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6FF30691A61D42F2B7F9E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0778807C29C999C93872B2C1 /* Pods-QTPickFlavor-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QTPickFlavor-MBProgressHUD/Pods-QTPickFlavor-MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QTPickFlavor-MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QTPickFlavor-MBProgressHUD/Pods-QTPickFlavor-MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAB95DC4493A34F44CE8B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F45F3F256C0EA3AB32033B1 /* Pods-QTPickFlavor.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QTPickFlavor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QTPickFlavor/Pods-QTPickFlavor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QTPickFlavor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023EC1321FE69767BD55D890 /* Build configuration list for PBXNativeTarget "Pods-QTPickFlavor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB95DC4493A34F44CE8B504 /* Debug */,
+				D1579FAA1396D4B6FBA30BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5D90A6B0DADF2E049B02B1 /* Build configuration list for PBXNativeTarget "Pods-QTPickFlavor-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8224AD9785210045C0A310 /* Debug */,
+				28C8C978E69F71C4F3F2C48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF4D80BD2E8EF5ADFC5790A /* Build configuration list for PBXNativeTarget "Pods-QTPickFlavor-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4D28AC21BB30BC24A53A4B /* Debug */,
+				E6FF30691A61D42F2B7F9E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC614810E3858BB8D9541D1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFC611D26644F6DE8150DE1 /* Debug */,
+				36F45E01875C6E4E8B0DBDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5367846CE3A7EBC14E20CCDA /* Project object */;
+}
